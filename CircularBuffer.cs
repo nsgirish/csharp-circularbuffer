@@ -61,6 +61,13 @@ namespace Buffering
 			}
 		}
 		
+		//IDisposable interface method to cleanup data members of class
+		public void Dispose() 
+		{
+			m_buffer = null;
+			m_capacity = m_index = -1;
+		}
+		
 		
 	}
 }
