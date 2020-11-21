@@ -5,6 +5,7 @@ CircularBuffer class written in CSharp which can be used to buffer data streams 
 
 ##Usage
 
+```csharp
 //init circular buffer
 CircularBuffer<FeedInfo> buffer = new CircularBuffer<FeedInfo>(20);
   
@@ -17,3 +18,4 @@ if(buffer != null)
   buffer.Dispose();
   buffer = null;
 }
+```
