@@ -6,7 +6,7 @@ CircularBuffer class written in CSharp which can be used to buffer data streams 
 ## Usage
 
 ```csharp
-//init circular buffer
+//init circular buffer with capacity to store only 20 objects 
 CircularBuffer<FeedInfo> buffer = new CircularBuffer<FeedInfo>(20);
   
 //assuming have received a FeedInfo object from a data stream such as a message topic
